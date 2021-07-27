@@ -1,0 +1,54 @@
+{
+  //===========================================
+  //============= editor ======================
+  //===========================================
+  "editor.tabSize": 2,
+  "editor.renderControlCharacters": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.detectIndentation": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.suggestSelection": "first",
+  "editor.trimAutoWhitespace": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  // ===========================================
+  // ================= jsdoc ===================
+  // https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE%E5%AD%97%E6%AE%B5
+  // ===========================================
+  "fileheader.customMade": {
+    "Date": "Do not edit",
+    "LastEditTime": "Do not edit",
+    "Description": "",
+    "FilePath": "no item name"
+  },
+  "fileheader.cursorMode": {
+    "description": "",
+    "param": "",
+    "return": ""
+  },
+  "fileheader.configObj": {
+    "useWorker": true,
+    "autoAdd": false,
+    "filePathColon": "/",
+    "createHeader": false,
+    "checkFileChange": true,
+    "specialOptions": {
+      "Date": "date",
+      "LastEditTime": "lastEditTime",
+      "LastEditors": "lastAuthor",
+      "Description": "description",
+      "FilePath": "filePath"
+    },
+    "language": {
+      "ts/js": {
+        "head": "/**",
+        "middle": " * @",
+        "end": " */"
+      }
+    },
+    "colon": [" ", " "]
+  }
+}

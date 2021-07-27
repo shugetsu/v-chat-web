@@ -1,0 +1,6 @@
+{
+  "recommendations": [
+    "johnsoncodehk.volar", // vue 插件
+    "obkoro1.korofileheader" // 生成文件头部注释插件
+  ]
+}
