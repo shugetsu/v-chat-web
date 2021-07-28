@@ -19,6 +19,7 @@
     "@typescript-eslint/eslint-plugin": "^4.28.5",
     "@typescript-eslint/parser": "^4.28.5",
     "@vitejs/plugin-vue": "^1.2.5",
+    "@vitejs/plugin-vue-jsx": "^1.1.7",
     "@vue/compiler-sfc": "^3.1.5",
     "commitizen": "^4.2.4",
     "commitlint-config-cz": "^0.13.2",
@@ -39,6 +40,12 @@
     "stylelint-config-standard": "^22.0.0",
     "typescript": "^4.3.5",
     "vite": "^2.4.3",
+    "vite-plugin-compression": "^0.3.1",
+    "vite-plugin-html": "^2.0.7",
+    "vite-plugin-imagemin": "^0.4.1",
+    "vite-plugin-purge-icons": "^0.7.0",
+    "vite-plugin-svg-icons": "^1.0.1",
+    "vite-plugin-windicss": "^1.2.7",
     "vue-tsc": "^0.2.2"
   },
   "license": "ISC",
@@ -46,5 +53,8 @@
     "commitizen": {
       "path": "node_modules/cz-customizable"
     }
+  },
+  "resolutions": {
+    "bin-wrapper": "npm:bin-wrapper-china"
   }
 }
