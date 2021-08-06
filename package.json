@@ -11,7 +11,7 @@
     "commit": "git cz"
   },
   "dependencies": {
-    "vue": "^3.1.5"
+    "vue": "^3.2.0-beta.7"
   },
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",
@@ -20,7 +20,7 @@
     "@typescript-eslint/parser": "^4.28.5",
     "@vitejs/plugin-vue": "^1.2.5",
     "@vitejs/plugin-vue-jsx": "^1.1.7",
-    "@vue/compiler-sfc": "^3.1.5",
+    "@vue/compiler-sfc": "3.2.0-beta.7",
     "commitizen": "^4.2.4",
     "commitlint-config-cz": "^0.13.2",
     "cz-customizable": "^6.3.0",
@@ -34,6 +34,7 @@
     "npm-check-updates": "^11.8.3",
     "prettier": "^2.3.2",
     "pretty-quick": "^3.1.1",
+    "sass": "^1.36.0",
     "stylelint": "^13.13.1",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-rational-order": "^0.1.2",
