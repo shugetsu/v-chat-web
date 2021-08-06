@@ -4648,6 +4648,11 @@ is-plain-obj@^2.0.0:
   resolved "https://registry.yarnpkg.com/is-plain-obj/-/is-plain-obj-2.1.0.tgz#45e42e37fccf1f40da8e5f76ee21515840c09287"
   integrity sha512-YWnfyRwxL/+SsrWYfOpUtz5b3YD+nyfkHvjbcanzk8zgyO4ASD67uVMRt8k5bM4lLMDnXfriRhOpemw+NfT1eA==
 
+is-plain-object@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/is-plain-object/-/is-plain-object-5.0.0.tgz#4427f50ab3429e9025ea7d52e9043a9ef4159344"
+  integrity sha512-VRSzKkbMm5jMDoKLbltAkFQ5Qr7VDiTFGXxYFXXowVj387GeGNOCsOH6Msy00SGZ3Fp84b1Naa1psqgcCIEP5Q==
+
 is-plain-object@^2.0.3, is-plain-object@^2.0.4:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/is-plain-object/-/is-plain-object-2.0.4.tgz#2c163b3fafb1b606d9d17928f05c2a1c38e07677"
@@ -9124,6 +9129,13 @@ vue-tsc@^0.2.2:
   integrity sha512-91mzfGneWCuF83WTGRI9HA67IBUh5lrhujnFaHKWHQlpQFcBadkmz0BVoGAuJLQILetC5/CrY3is6FGiWFuY4w==
   dependencies:
     vscode-vue-languageservice "^0.26.6"
+
+vue-types@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/vue-types/-/vue-types-4.0.1.tgz#023aff15ac890d7823aacdc23fc4ac8e6c37b290"
+  integrity sha512-prSJ8K4hBmwdtG9cupF96wDKxtLZqjGpu6Q6R9yakcbRWz1Gf+c4oUMq7j6FwAf0TFkZ77FfU7wgdWLgyZ/9Bw==
+  dependencies:
+    is-plain-object "5.0.0"
 
 vue@^3.2.0-beta.7:
   version "3.2.0-beta.7"
