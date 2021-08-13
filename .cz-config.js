@@ -1,6 +1,6 @@
 /**
  * @date 2021-07-27 10:49:58
- * @lastEditTime 2021-08-13 10:02:22
+ * @lastEditTime 2021-08-13 10:26:14
  * @description cz-customizable 自定义适配器配置
  * @filePath /.cz-config.js
  * @see https://github.com/leoforfree/cz-customizable
@@ -32,6 +32,7 @@ module.exports = {
   })),
   // scope 类型（定义之后，可通过上下键选择）
   scopes: [
+    ['hooks', '钩子相关'],
     ['utils', '工具相关'],
     ['deps', '项目依赖'],
     ['other', '其他'],
