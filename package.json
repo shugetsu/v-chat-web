@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "naive-ui": "^2.16.2",
+    "pinia": "^2.0.0-rc.4",
     "vue": "^3.2.2",
     "vue-i18n": "^9.1.7",
     "vue-types": "^4.0.1"
