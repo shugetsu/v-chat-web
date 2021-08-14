@@ -1,8 +1,5 @@
 import path from 'path'
-import { loadEnv } from 'vite'
 import { EnvConfigService } from './EnvConfigService'
-
-export * from './EnvConfigService'
 
 /**
  * 根路径
@@ -10,16 +7,15 @@ export * from './EnvConfigService'
  * @return {string}
  */
 export function pathResolve(dir: string): string {
-  return path.resolve(process.cwd(), dir)
+  return path.resolve(process.cwd(), '.', dir)
 }
 
 /**
  * 创建 Vite 环境变量服务
- * @param {string} mode
+ * @param {ViteEnv} env
  * @return {EnvConfigService<ViteEnv>}
  */
-export function createViteEnvConfigService(mode: string): EnvConfigService<ViteEnv> {
-  const env = loadEnv(mode, pathResolve('build/env')) as unknown as ViteEnv
+export function createViteEnvConfigService(env: ViteEnv): EnvConfigService<ViteEnv> {
   const viteEnv = new EnvConfigService<ViteEnv>(env)
   return viteEnv
 }

@@ -16,8 +16,8 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "paths": {
-      "/$/*": ["build/*"],
       "/@/*": ["src/*"],
+      "/%/*": ["build/*"],
       "/#/*": ["typings/*"]
     }
   },

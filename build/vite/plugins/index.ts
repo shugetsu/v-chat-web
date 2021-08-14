@@ -1,5 +1,4 @@
-import type { EnvConfigService } from '/$/utils'
-
+import { EnvConfigService } from '/$/utils/EnvConfigService'
 import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
 import { htmlPluginConfig } from './html'

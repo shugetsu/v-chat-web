@@ -1,10 +1,10 @@
-import { ConfigEnv, UserConfig } from 'vite'
+import { ConfigEnv, loadEnv, UserConfig } from 'vite'
 import { createViteEnvConfigService, pathResolve } from '../utils'
 import { vitePluginsConfig } from './plugins'
 
 export function viteConfig({ command, mode }: ConfigEnv): UserConfig {
   const isBuild = command === 'build'
-  const viteEnv = createViteEnvConfigService(mode)
+  const viteEnv = createViteEnvConfigService(loadEnv(mode, pathResolve('build/env')) as unknown as ViteEnv)
 
   return {
     base: viteEnv.get('VITE_PUBLIC_PATH'),
@@ -13,7 +13,7 @@ export function viteConfig({ command, mode }: ConfigEnv): UserConfig {
     resolve: {
       alias: [
         { find: /\/@\//, replacement: pathResolve('src') + '/' },
-        { find: /\/$\//, replacement: pathResolve('build') + '/' },
+        { find: /\/%\//, replacement: pathResolve('build') + '/' },
         { find: /\/#\//, replacement: pathResolve('typings') + '/' }
       ]
     },
