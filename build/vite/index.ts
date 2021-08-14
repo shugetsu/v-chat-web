@@ -4,7 +4,7 @@ import { vitePluginsConfig } from './plugins'
 
 export function viteConfig({ command, mode }: ConfigEnv): UserConfig {
   const isBuild = command === 'build'
-  const viteEnv = createViteEnvConfigService(loadEnv(mode, pathResolve('build/env')) as unknown as ViteEnv)
+  const viteEnv = createViteEnvConfigService(loadEnv(mode, pathResolve('')) as unknown as ViteEnv)
 
   return {
     base: viteEnv.get('VITE_PUBLIC_PATH'),
