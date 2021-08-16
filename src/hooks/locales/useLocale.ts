@@ -52,7 +52,7 @@ export function useLocale(): ReturnLocale {
     } else {
       ;(i18n.global.locale as any).value = locale
     }
-    logger.debug(`当前区域为 '${LocaleOptions[locale].label} (${locale})'`)
+    logger.debug(`当前区域 '${locale}'`)
   }
   return {
     setLocale,

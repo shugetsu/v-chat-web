@@ -1,6 +1,6 @@
 /**
  * @date 2021-07-27 10:49:58
- * @lastEditTime 2021-08-16 10:39:06
+ * @lastEditTime 2021-08-16 14:48:34
  * @description cz-customizable 自定义适配器配置
  * @filePath /.cz-config.js
  * @see https://github.com/leoforfree/cz-customizable
@@ -41,6 +41,7 @@ module.exports = {
     ['settings', '设置相关'],
     ['utils', '工具相关'],
     ['store', 'vuex 相关'],
+    ['themes', '主题相关'],
     ['deps', '项目依赖'],
     ['other', '其他'],
     ['custom', '以上都不是？我要自定义']
