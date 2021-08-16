@@ -76,16 +76,26 @@ declare global {
      * 端口号
      */
     VITE_PORT: number
-
     /**
      * 公共路径
      */
     VITE_PUBLIC_PATH: string
-
     /**
      * App 名称
      */
     VITE_APP_NAME: string
+    /**
+     * 命名空间
+     */
+    VITE_NAMESPACE: string
+    /**
+     * LocalCache 版本号
+     */
+    VITE_LOCAL_CACHE_VERSION: string
+    /**
+     * 日志级别
+     */
+    VITE_LOGGER_LEVEL: 'TRACE' | 'DEBUG' | 'INFO' | 'WARN' | 'ERROR' | 'SILENT'
   }
 }
 
@@ -103,12 +113,10 @@ declare module 'vue' {
      * 深色模式
      */
     'v:dark'?: string
-
     /**
      * 浅色模式
      */
     'v:light'?: string
-
     /**
      * 鼠标移入
      */
