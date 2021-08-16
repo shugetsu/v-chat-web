@@ -1,6 +1,6 @@
 /**
  * @date 2021-07-27 10:49:58
- * @lastEditTime 2021-08-16 10:16:05
+ * @lastEditTime 2021-08-16 10:39:06
  * @description cz-customizable 自定义适配器配置
  * @filePath /.cz-config.js
  * @see https://github.com/leoforfree/cz-customizable
@@ -34,7 +34,7 @@ module.exports = {
   scopes: [
     ['assets', '资源相关'],
     ['components', '组件相关'],
-    ['enums', '枚举相关'],
+    ['datas', '数据相关'],
     ['design', '设计相关'],
     ['hooks', '钩子相关'],
     ['locales', 'i18n 相关'],

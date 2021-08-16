@@ -6,6 +6,6 @@
     "stylelint.vscode-stylelint", // stylelint 插件
     "esbenp.prettier-vscode", // prettier 插件
     "mikestead.dotenv", // env 插件
-    "afzalsayed96.icones" // icones 插件
+    "lokalise.i18n-ally" // i18n  插件
   ]
 }
