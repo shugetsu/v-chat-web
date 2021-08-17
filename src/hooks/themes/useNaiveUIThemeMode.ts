@@ -3,7 +3,7 @@ import { darkTheme } from 'naive-ui'
 import { useThemeMode } from './useThemeMode'
 import { BuiltInGlobalTheme } from 'naive-ui/lib/themes/interface'
 
-interface ReturnNaiveUIThemeMode {
+interface ReturnUseNaiveUIThemeMode {
   /**
    * Naive UI 的主题
    */
@@ -11,10 +11,10 @@ interface ReturnNaiveUIThemeMode {
 }
 
 /**
- * @description Naive UI 的主题模式
- * @return {ReturnNaiveTheme}
+ * @description Naive UI 主题模式
+ * @return {ReturnUseNaiveUIThemeMode}
  */
-export function useNaiveUIThemeMode(): ReturnNaiveUIThemeMode {
+export function useNaiveUIThemeMode(): ReturnUseNaiveUIThemeMode {
   const { isDark } = useThemeMode()
 
   // Naive UI 主题模式

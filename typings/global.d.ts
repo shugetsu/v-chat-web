@@ -60,7 +60,6 @@ declare global {
    *   age: number
    * }
    */
-
   type Overwrite<T, U> = Pick<T, Exclude<keyof T, keyof U>> & U
 
   /**

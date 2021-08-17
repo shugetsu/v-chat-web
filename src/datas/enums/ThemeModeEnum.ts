@@ -1,7 +1,7 @@
 /**
  * @date 2021-08-16 10:44:23
- * @lastEditTime 2021-08-16 14:40:20
- * @description 主题模式
+ * @lastEditTime 2021-08-17 10:41:12
+ * @description 主题模式类型
  * @filePath /src/datas/enums/ThemeModeEnum.ts
  */
 

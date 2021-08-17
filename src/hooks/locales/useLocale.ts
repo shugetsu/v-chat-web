@@ -5,7 +5,6 @@ import { LocaleEnum } from '../../datas/enums/LocaleEnum'
 import { setHtmlLang } from '/@/utils/helpers/setHtmlLang'
 import { dynamicLocaleMessages } from '/@/utils/helpers/dynamicLocaleMessages'
 import { createLogger } from '/@/utils/logger'
-import { LocaleOptions } from '../../datas/options/LocaleOptions'
 
 interface ReturnLocale {
   /**

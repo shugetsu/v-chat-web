@@ -1,13 +1,13 @@
 /**
  * @date 2021-08-16 14:41:29
- * @lastEditTime 2021-08-16 14:43:06
+ * @lastEditTime 2021-08-17 11:41:53
  * @description 主题模式
  * @filePath /src/datas/options/ThemeModeOptions.ts
  */
 
 import { ThemeModeEnum } from '../enums/ThemeModeEnum'
 
-export type ThemeModeOption = {
+type ThemeModeOption = {
   label: string
   value: ThemeModeEnum
 }

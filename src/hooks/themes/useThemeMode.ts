@@ -3,9 +3,8 @@ import { useThemeStoreWithOut } from '/@/store/modules/theme'
 import { createLogger } from '/@/utils/logger'
 import { setWindiThemeMode } from '/@/utils/helpers/setWindiThemeMode'
 import { ThemeModeEnum } from '/@/datas/enums/ThemeModeEnum'
-import { ThemeModeOptions } from '/@/datas/options/ThemeModeOptions'
 
-interface ReturnThemeMode {
+interface ReturnUseThemeMode {
   /**
    * @description 设置主题模式
    * @param {ThemeModeEnum} mode
@@ -35,9 +34,9 @@ const logger = createLogger('useThemeMode')
 
 /**
  * @description 主题模式
- * @return {ReturnThemeMode}
+ * @return {ReturnUseThemeMode}
  */
-export function useThemeMode(): ReturnThemeMode {
+export function useThemeMode(): ReturnUseThemeMode {
   const themeStore = useThemeStoreWithOut()
 
   // 主题模式
