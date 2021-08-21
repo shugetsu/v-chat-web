@@ -1,7 +1,7 @@
 import { computed, ComputedRef } from 'vue'
 import { useLocaleStoreWithOut } from '/@/store/modules/locale'
 import { i18n } from '/@/locales'
-import { LocaleEnum } from '../../datas/enums/LocaleEnum'
+import { LocaleEnum } from '/@/datas/enums/LocaleEnum'
 import { setHtmlLang } from '/@/utils/helpers/setHtmlLang'
 import { dynamicLocaleMessages } from '/@/utils/helpers/dynamicLocaleMessages'
 import { createLogger } from '/@/utils/logger'
@@ -53,6 +53,7 @@ export function useLocale(): ReturnLocale {
     }
     logger.debug(`当前区域 '${locale}'`)
   }
+
   return {
     setLocale,
     locale
