@@ -1498,10 +1498,10 @@ astral-regex@^2.0.0:
   resolved "https://registry.yarnpkg.com/astral-regex/-/astral-regex-2.0.0.tgz#483143c567aeed4785759c0865786dc77d7d2e31"
   integrity sha512-Z7tMw1ytTXt5jqMcOP+OQteU1VuNK9Y02uuJtKQ1Sv69jXQKKg5cibLwGJow8yzZP+eAc18EmLGPal0bp36rvQ==
 
-async-validator@^3.5.1:
-  version "3.5.2"
-  resolved "https://registry.yarnpkg.com/async-validator/-/async-validator-3.5.2.tgz#68e866a96824e8b2694ff7a831c1a25c44d5e500"
-  integrity sha512-8eLCg00W9pIRZSB781UUX/H6Oskmm8xloZfr09lz5bikRpBVDlJ3hRVuxxP1SxcwsEYfJ4IU8Q19Y8/893r3rQ==
+async-validator@^4.0.1:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/async-validator/-/async-validator-4.0.2.tgz#f8089628ff8a95f7c8c58e1b8d3c3cd9de186996"
+  integrity sha512-wPFnOgf9uIu/7uvptlX7PepSf2ArGt60Wng0bYrQ08eZVFG65LRLQpHKQebWEyAYtJcdPN31kndy4nS0jVnf0Q==
 
 async@0.9.x:
   version "0.9.2"
@@ -5983,16 +5983,16 @@ mute-stream@0.0.7:
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.7.tgz#3075ce93bc21b8fab43e1bc4da7e8115ed1e7bab"
   integrity sha1-MHXOk7whuPq0PhvE2n6BFe0ee6s=
 
-naive-ui@^2.16.2:
-  version "2.16.2"
-  resolved "https://registry.yarnpkg.com/naive-ui/-/naive-ui-2.16.2.tgz#f7d4b84f15529bc8f367644edcdb2c14c7912372"
-  integrity sha512-pIQyg5Im0E3j4BI6Fb3zQRUqqHKLe1zqUEIDJ2GmDzTi9SZIxhSTj4t1ck9C43aCNu93QORZLf7e0sgJLf6LQg==
+naive-ui@^2.16.5:
+  version "2.16.5"
+  resolved "https://registry.yarnpkg.com/naive-ui/-/naive-ui-2.16.5.tgz#4e9e63dd1803dfe8a9a82d0a47d66f4968222524"
+  integrity sha512-nqIQTivPETbHR+Z7It0iSXlYe71Az5Hi5IBJ1l2tRSNWZU2Tz9v5vMf9F78xfIz1o2Mb+cmQV7PuMazc/EbGXQ==
   dependencies:
     "@css-render/plugin-bem" "^0.15.4"
     "@css-render/vue3-ssr" "^0.15.4"
     "@types/lodash" "^4.14.170"
     "@types/lodash-es" "^4.17.4"
-    async-validator "^3.5.1"
+    async-validator "^4.0.1"
     css-render "^0.15.4"
     date-fns "^2.19.0"
     evtd "^0.2.2"
@@ -6000,7 +6000,7 @@ naive-ui@^2.16.2:
     lodash "^4.17.21"
     lodash-es "^4.17.21"
     seemly "^0.3.1"
-    treemate "^0.2.12"
+    treemate "^0.3.0"
     vdirs "^0.1.4"
     vfonts "^0.1.0"
     vooks "^0.2.6"
@@ -8707,10 +8707,10 @@ traverse@^0.6.6:
   resolved "https://registry.yarnpkg.com/traverse/-/traverse-0.6.6.tgz#cbdf560fd7b9af632502fed40f918c157ea97137"
   integrity sha1-y99WD9e5r2MlAv7UD5GMFX6pcTc=
 
-treemate@^0.2.12:
-  version "0.2.12"
-  resolved "https://registry.yarnpkg.com/treemate/-/treemate-0.2.12.tgz#eed8ce0cd5a03f11c090c43d08f548694eead4b5"
-  integrity sha512-li5ZxaT7BtBIEnT7eUO3mk4BdefANPUKjCGnTciFp5e5UDy3+07HLvWelKxuIz1jCz+6r5IPoP8P/5+8Xz9Z7w==
+treemate@^0.3.0:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/treemate/-/treemate-0.3.2.tgz#ad4f3072e51aab2801697ec20a467ebe01884070"
+  integrity sha512-vy4x0kVfNHxNh+AmXbvrCklYc6HlPpIgqy2zzCStBnqdlhuHP+PaOfKUS3YyISAPhj4g4KdqmvfYrgQV2SF6Ag==
 
 trim-newlines@^1.0.0:
   version "1.0.0"

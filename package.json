@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "loglevel": "^1.7.1",
-    "naive-ui": "^2.16.2",
+    "naive-ui": "^2.16.5",
     "pinia": "^2.0.0-rc.4",
     "vue": "^3.2.2",
     "vue-i18n": "^9.1.7",
