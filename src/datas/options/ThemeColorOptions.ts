@@ -1,54 +1,50 @@
 /**
  * @date 2021-08-16 15:26:37
- * @lastEditTime 2021-08-17 11:41:44
+ * @lastEditTime 2021-09-02 15:57:39
  * @description 主题色
  * @filePath /src/datas/options/ThemeColorOptions.ts
  */
 
 import { ThemeColorEnum } from '../enums/ThemeColorEnum'
+import { tKey } from '/@/utils/helpers/tKey'
 import { WeiLan } from '/@/themes/overrides/WeiLan'
 import { YangHong } from '/@/themes/overrides/YangHong'
 
-type Gradient = {
-  offset: number
-  color: string
-}
-
-type ThemeColorOption = {
+interface ThemeColorOption {
   label: string
   value: ThemeColorEnum
-  color: string
-  gradients: Gradient[]
+  linearGradient: Array<{
+    offset: number
+    stopColor: string
+  }>
 }
 
 export const ThemeColorOptions: Record<ThemeColorEnum, ThemeColorOption> = {
   [ThemeColorEnum.YANG_HONG]: {
-    label: '洋红',
-    value: ThemeColorEnum.WEI_LAN,
-    color: YangHong.common.primaryColor,
-    gradients: [
+    label: tKey('Datas.Options.ThemeColorOptions.YangHong'),
+    value: ThemeColorEnum.YANG_HONG,
+    linearGradient: [
       {
         offset: 0,
-        color: '#f095ff'
+        stopColor: '#f095ff'
       },
       {
         offset: 0.99,
-        color: YangHong.common.primaryColor
+        stopColor: YangHong.common.primaryColor
       }
     ]
   },
   [ThemeColorEnum.WEI_LAN]: {
-    label: '蔚蓝',
+    label: tKey('Datas.Options.ThemeColorOptions.WeiLan'),
     value: ThemeColorEnum.WEI_LAN,
-    color: WeiLan.common.primaryColor,
-    gradients: [
+    linearGradient: [
       {
         offset: 0,
-        color: '#88fcfe'
+        stopColor: '#88fcfe'
       },
       {
         offset: 0.99,
-        color: WeiLan.common.primaryColor
+        stopColor: WeiLan.common.primaryColor
       }
     ]
   }

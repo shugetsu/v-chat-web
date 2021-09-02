@@ -1,24 +1,29 @@
 /**
  * @date 2021-08-17 11:35:13
- * @lastEditTime 2021-08-17 11:41:57
+ * @lastEditTime 2021-09-02 15:57:31
  * @description 主题皮肤
  * @filePath /src/datas/options/ThemeSkinOptions.ts
  */
 
 import { ThemeSkinEnum } from '../enums/ThemeSkinEnum'
+import { getAssetPath } from '/@/utils/helpers/getAssetPath'
+import { tKey } from '/@/utils/helpers/tKey'
 
-type ThemeSkinOption = {
+interface ThemeSkinOption {
   label: string
   value: ThemeSkinEnum
+  image: string
 }
 
 export const ThemeSkinOptions: ThemeSkinOption[] = [
   {
-    label: '默认',
-    value: ThemeSkinEnum.DEFAULT
+    label: tKey('Datas.Options.ThemeSkinOptions.Default'),
+    value: ThemeSkinEnum.DEFAULT,
+    image: getAssetPath('common/images/components/application/default.png')
   },
   {
-    label: '史莱姆',
-    value: ThemeSkinEnum.SLIME
+    label: tKey('Datas.Options.ThemeSkinOptions.Slime'),
+    value: ThemeSkinEnum.SLIME,
+    image: getAssetPath('common/images/components/application/slime.png')
   }
 ]
