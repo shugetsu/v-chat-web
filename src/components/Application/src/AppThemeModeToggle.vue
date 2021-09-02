@@ -1,24 +1,25 @@
 <script setup lang="ts">
+  import { NTooltip } from 'naive-ui'
+  import { useI18n } from 'vue-i18n'
   import { VSvgIcon } from '/@/components/Icon'
+  import { ThemeModeOptions } from '/@/datas/options/ThemeModeOptions'
   import { useThemeMode } from '/@/hooks/themes/useThemeMode'
 
-  const { handoverThemeMode } = useThemeMode()
+  const { t } = useI18n()
+  const { themeMode, handoverThemeMode } = useThemeMode()
 </script>
 
 <template>
-  <div class="v-app-theme-mode-toggle" @click="handoverThemeMode">
-    <VSvgIcon :size="14" name="sun" />
-    <VSvgIcon :size="14" name="moon" />
-    <i class="v-app-theme-mode-toggle-button" v:dark="translate-x-18px"></i>
-  </div>
+  <span class="cursor-pointer" @click="handoverThemeMode">
+    <template v-for="item in ThemeModeOptions">
+      <NTooltip v-if="item.value === themeMode" :key="item.value" trigger="hover">
+        <template #trigger>
+          <VSvgIcon :size="22" :name="item.svgIconName" />
+        </template>
+        {{ t(item.label) }}
+      </NTooltip>
+    </template>
+  </span>
 </template>
 
-<style lang="scss">
-  .v-app-theme-mode-toggle {
-    @apply relative inline-flex items-center justify-between bg-gray-800 border rounded-full cursor-pointer w-50px h-28px px-6px border-gray-50;
-  }
-
-  .v-app-theme-mode-toggle-button {
-    @apply absolute transition-transform transform bg-white rounded-full w-18px h-18px;
-  }
-</style>
+<style lang="scss"></style>
