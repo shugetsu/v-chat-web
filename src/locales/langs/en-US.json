@@ -1,1 +1,89 @@
-{}
+{
+  "Components": {
+    "Application": {
+      "AppConfiguration": {
+        "SystemLanguage": "System language",
+        "ThemeColor": "Theme color",
+        "ThemeMode": "Theme mode",
+        "ThemeSkin": "Theme skin"
+      }
+    },
+    "NaiveUI": {
+      "Form": {
+        "Array": {
+          "Len": "{0} must be exactly {1} in length",
+          "Max": "{0} cannot be greater than {1} in length",
+          "Min": "{0} cannot be less than {1} in length",
+          "Range": "{0} must be between {1} and {2} in length"
+        },
+        "Date": {
+          "Format": "{0} date {1} is invalid for format {2}",
+          "Invalid": "{0} date {1} is invalid",
+          "Parse": "{0} date could not be parsed, {1} is invalid"
+        },
+        "Default": "Validation error on field {0}",
+        "Enum": "{0} must be one of {1}",
+        "Number": {
+          "Len": "{0} must equal {1}",
+          "Max": "{0} cannot be greater than {1}",
+          "Min": "{0} cannot be less than {1}",
+          "Range": "{0} must be between {1} and {2}"
+        },
+        "Pattern": {
+          "Mismatch": "{0} value {1} does not match pattern {2}"
+        },
+        "Required": "{0} is required",
+        "String": {
+          "Len": "{0} must be exactly {1} characters",
+          "Max": "{0} cannot be longer than {1} characters",
+          "Min": "{0} must be at least {1} characters",
+          "Range": "{0} must be between {1} and {2} characters"
+        },
+        "Types": {
+          "Array": "{0} is not an {1}",
+          "Boolean": "{0} is not a {1}",
+          "Date": "{0} is not a {1}",
+          "Email": "{0} is not a valid {1}",
+          "Float": "{0} is not a {1}",
+          "Hex": "{0} is not a valid {1}",
+          "Integer": "{0} is not an {1}",
+          "Method": "{0} is not a {1} (function)",
+          "Number": "{0} is not a {1}",
+          "Object": "{0} is not an {1}",
+          "Regexp": "{0} is not a valid {1}",
+          "String": "{0} is not a {1}",
+          "Url": "{0} is not a valid {1}"
+        },
+        "Whitespace": "{0} cannot be empty"
+      }
+    }
+  },
+  "Datas": {
+    "Options": {
+      "ThemeColorOptions": {
+        "WeiLan": "Azure",
+        "YangHong": "Magenta"
+      },
+      "ThemeModeOptions": {
+        "Dark": "Dark color",
+        "Light": "Light color"
+      },
+      "ThemeSkinOptions": {
+        "Default": "Default",
+        "Slime": "Slime"
+      }
+    }
+  },
+  "SignInPage": {
+    "CreateAnAccount": "Create an Account",
+    "Email": "Email",
+    "EnterEmail": "Enter email",
+    "EnterPassword": "Enter password",
+    "ForgetPassword": "Forget password?",
+    "HeaderTitle": "Sign In",
+    "NotRegisteredYet": "Not registered yet? ",
+    "Password": "Password",
+    "RememberAccount": "Remember Account",
+    "SignInButton": "Sign In"
+  }
+}

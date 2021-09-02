@@ -1,1 +1,89 @@
-{}
+{
+  "Components": {
+    "Application": {
+      "AppConfiguration": {
+        "SystemLanguage": "系统语言",
+        "ThemeColor": "主题色",
+        "ThemeMode": "主题模式",
+        "ThemeSkin": "主题皮肤"
+      }
+    },
+    "NaiveUI": {
+      "Form": {
+        "Array": {
+          "Len": "{0} 的长度必须正好是 {1}",
+          "Max": "{0} 的长度不能大于 {1}",
+          "Min": "{0} 的长度不能小于 {1}",
+          "Range": "{0} 的长度必须介于 {1} 和 {2} 之间"
+        },
+        "Date": {
+          "Format": "{0} 日期 {1} 对格式 {2} 无效",
+          "Invalid": "{0} 日期 {1} 无效",
+          "Parse": "{0} 日期无法解析，{1} 无效"
+        },
+        "Default": "字段 {0} 上的验证错误",
+        "Enum": "{0} 必须是 {1} 之一",
+        "Number": {
+          "Len": "{0} 必须等于 {1}",
+          "Max": "{0} 不能大于 {1}",
+          "Min": "{0} 不能小于 {1}",
+          "Range": "{0} 必须介于 {1} 和 {2} 之间"
+        },
+        "Pattern": {
+          "Mismatch": "{0} 值 {1} 与模式 {2} 不匹配"
+        },
+        "Required": "{0} 是必需的",
+        "String": {
+          "Len": "{0} 必须正好是 {1} 个字符",
+          "Max": "{0} 不能超过 {1} 个字符",
+          "Min": "{0} 必须至少为 {1} 个字符",
+          "Range": "{0} 必须介于 {1} 和 {2} 个字符之间"
+        },
+        "Types": {
+          "Array": "{0} 必须是数组",
+          "Boolean": "{0} 必须是布尔值",
+          "Date": "{0} 必须是日期类型",
+          "Email": "{0} 必须是电子邮件类型",
+          "Float": "{0} 必须是浮点数",
+          "Hex": "{0} 必须是十六进制",
+          "Integer": "{0} 必须是整型",
+          "Method": "{0} 必须是函数",
+          "Number": "{0} 必须是数字",
+          "Object": "{0} 必须是对象",
+          "Regexp": "{0} 必须是RegExp的实例",
+          "String": "{0}  必须是字符串",
+          "Url": "{0} 必须是url类型"
+        },
+        "Whitespace": "{0} 不能为空"
+      }
+    }
+  },
+  "Datas": {
+    "Options": {
+      "ThemeColorOptions": {
+        "WeiLan": "蔚蓝",
+        "YangHong": "洋红"
+      },
+      "ThemeModeOptions": {
+        "Dark": "深色",
+        "Light": "浅色"
+      },
+      "ThemeSkinOptions": {
+        "Default": "默认",
+        "Slime": "史莱姆"
+      }
+    }
+  },
+  "SignInPage": {
+    "CreateAnAccount": "创建账号",
+    "Email": "邮箱",
+    "EnterEmail": "输入邮箱",
+    "EnterPassword": "输入密码",
+    "ForgetPassword": "忘记密码？",
+    "HeaderTitle": "登录",
+    "NotRegisteredYet": "没有注册？",
+    "Password": "密码",
+    "RememberAccount": "记住账号",
+    "SignInButton": "登录"
+  }
+}

@@ -1,10 +1,12 @@
 <script setup lang="ts">
-  import { VAppConfigProvider, VAppThemeModeToggle } from '/@/components/Application'
+  import { RouterView } from 'vue-router'
+  import { VAppConfigProvider, VAppConfiguration } from '/@/components/Application'
 </script>
 
 <template>
   <VAppConfigProvider>
-    <VAppThemeModeToggle />
+    <RouterView />
+    <VAppConfiguration />
   </VAppConfigProvider>
 </template>
 

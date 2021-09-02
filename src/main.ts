@@ -13,10 +13,13 @@ import '/@/design/index.scss'
 
 import { setupStore } from './store'
 import { setupI18n } from './locales'
+import { setupRouter } from './router'
 
 const app = createApp(App)
 // 安装 store
 setupStore(app)
 // 安装 i18n
 await setupI18n(app)
+// 安装 router
+setupRouter(app)
 app.mount('#app')
