@@ -37,12 +37,12 @@ export function useLocale(): ReturnLocale {
    * @return {Promise<void>}
    */
   async function setLocale(locale: LocaleEnum): Promise<void> {
+    // 加载区域消息
+    const messages = await dynamicLocaleMessages(locale)
     // 设置 locale store
     localeStore.setLocale(locale)
     // 设置 html 语言
     setHtmlLang(locale)
-    // 加载区域消息
-    const messages = await dynamicLocaleMessages(locale)
     // 添加 i18n 区域消息
     i18n.global.setLocaleMessage(locale, messages)
     // 更改 i18n 当前区域
