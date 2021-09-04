@@ -4,17 +4,12 @@
   import { LocaleOptions } from '/@/datas/options/LocaleOptions'
   import { useLocale } from '/@/hooks/locales/useLocale'
 
-  const { locale, setLocale } = useLocale()
+  const { locale, setLocale } = useLocale() as any
   const localeDropdownOptions = Object.values(LocaleOptions).map(({ label, value: key }) => ({ label, key }))
-
-  // 切换区域
-  function onHandoverLocaleHandler(value: any) {
-    setLocale(value)
-  }
 </script>
 
 <template>
-  <NDropdown :value="locale" trigger="click" :options="localeDropdownOptions" @select="onHandoverLocaleHandler">
+  <NDropdown :value="locale" trigger="click" :options="localeDropdownOptions" @select="setLocale">
     <VSvgIcon :size="22" class="cursor-pointer" name="language" />
   </NDropdown>
 </template>

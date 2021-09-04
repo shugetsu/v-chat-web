@@ -1,7 +1,7 @@
 {
   "Components": {
     "Application": {
-      "AppConfiguration": {
+      "AppSystemSettings": {
         "SystemLanguage": "System language",
         "ThemeColor": "Theme color",
         "ThemeMode": "Theme mode",

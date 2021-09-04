@@ -1,7 +1,11 @@
 <script lang="ts">
   const [AppConfigProvider, useAppConfigProvider] = useProvideInject<{
+    /**
+     * Naive UI 主题皮肤
+     */
     naiveUIThemeSkin: ComputedRef<ThemeSkin>
   }>()
+
   export { useAppConfigProvider }
 </script>
 

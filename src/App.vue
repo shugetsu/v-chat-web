@@ -1,12 +1,12 @@
 <script setup lang="ts">
   import { RouterView } from 'vue-router'
-  import { VAppConfigProvider, VAppConfiguration } from '/@/components/Application'
+  import { VAppConfigProvider, VAppSystemSettings } from '/@/components/Application'
 </script>
 
 <template>
   <VAppConfigProvider>
     <RouterView />
-    <VAppConfiguration />
+    <VAppSystemSettings />
   </VAppConfigProvider>
 </template>
 
