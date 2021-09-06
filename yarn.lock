@@ -486,6 +486,11 @@
   dependencies:
     cross-fetch "^3.0.6"
 
+"@iconify/vue@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@iconify/vue/-/vue-3.0.0.tgz#7e2fa8a515aea4e50313d41acdb3cc0b3492829d"
+  integrity sha512-7heVMHkpB3d7l+/ofAQ+f9k5mETi/FWEnI5dXFQqsDmc/yuO2Nz5D9XkSDvO1b6TRVawf/kleN8JXRaClTM4nQ==
+
 "@intlify/core-base@9.1.7":
   version "9.1.7"
   resolved "https://registry.yarnpkg.com/@intlify/core-base/-/core-base-9.1.7.tgz#a454a492683690bc3d0abab82605ab5a23645bd0"
