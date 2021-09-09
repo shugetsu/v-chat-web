@@ -1,4 +1,4 @@
-import { isNumber } from '../tools/is'
+import { isNumber } from 'lodash'
 
 /**
  * @description 确保是 css 单位
