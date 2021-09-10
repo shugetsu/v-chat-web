@@ -54,7 +54,7 @@
     "vite-plugin-html": "^2.1.0",
     "vite-plugin-imagemin": "^0.4.5",
     "vite-plugin-purge-icons": "^0.7.0",
-    "vite-plugin-svg-icons": "^1.0.1",
+    "vite-plugin-svg-icons": "^1.0.4",
     "vite-plugin-windicss": "^1.2.7",
     "vue-tsc": "^0.3.0"
   },

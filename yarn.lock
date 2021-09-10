@@ -9242,10 +9242,10 @@ vite-plugin-purge-icons@^0.7.0:
     "@purge-icons/generated" "^0.7.0"
     rollup-plugin-purge-icons "^0.7.0"
 
-vite-plugin-svg-icons@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/vite-plugin-svg-icons/-/vite-plugin-svg-icons-1.0.1.tgz#2fb8c257cf2b7bf085c40b7feb4b82e5e368778b"
-  integrity sha512-bWAfm2zm0Y6OXhLWn9C1hcEOZo4Mgdgv6vJgkdb16RdWBUDWd5zcewMNKlYp1s8wjmvsK4xqUJvmM7vd3E3naQ==
+vite-plugin-svg-icons@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/vite-plugin-svg-icons/-/vite-plugin-svg-icons-1.0.4.tgz#9f20feff4b3bfbdcf5401d3efa75d4813f27dc22"
+  integrity sha512-sRneOwVRA6F2zfNKtmwTQl4WwtrdzFq8REO5elX9rd9vC5gNxJ5v4TNlm8cHWGCwvLuxCu5lrnhEU2rcg8izgg==
   dependencies:
     "@types/svgo" "^2.3.1"
     cors "^2.8.5"
