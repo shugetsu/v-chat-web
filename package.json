@@ -28,7 +28,7 @@
     "@typescript-eslint/eslint-plugin": "^4.28.5",
     "@typescript-eslint/parser": "^4.28.5",
     "@vitejs/plugin-vue": "^1.6.2",
-    "@vitejs/plugin-vue-jsx": "^1.1.7",
+    "@vitejs/plugin-vue-jsx": "^1.1.8",
     "@vue/compiler-sfc": "^3.2.9",
     "commitizen": "^4.2.4",
     "commitlint-config-cz": "^0.13.2",

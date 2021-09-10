@@ -1004,10 +1004,10 @@
     "@typescript-eslint/types" "4.28.5"
     eslint-visitor-keys "^2.0.0"
 
-"@vitejs/plugin-vue-jsx@^1.1.7":
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/@vitejs/plugin-vue-jsx/-/plugin-vue-jsx-1.1.7.tgz#3e0236a01d6b5f8010bd6bc5ffccdbe1f0fa50d5"
-  integrity sha512-lomCrTZ/LXUk8L+1fBX4dpW+L/S7qY4+pzS5BRG2NuLpjo26Efh4yb8nDkYM7b8COS3ea7otis0SsqD8vGOSlg==
+"@vitejs/plugin-vue-jsx@^1.1.8":
+  version "1.1.8"
+  resolved "https://registry.yarnpkg.com/@vitejs/plugin-vue-jsx/-/plugin-vue-jsx-1.1.8.tgz#c7b9efd94efe8801635f755b6fd0d0a3a70cf596"
+  integrity sha512-2ah1PuLf2fFdfJO91VLOPNHlNkhpOEgOY0/yNjJwhGNdWec5f2D4hrGdf4vUFIFcNw6D6SXEUhE4Fva5+TmKLA==
   dependencies:
     "@babel/core" "^7.14.8"
     "@babel/plugin-syntax-import-meta" "^7.10.4"
