@@ -33,7 +33,7 @@
     "commitizen": "^4.2.4",
     "commitlint-config-cz": "^0.13.2",
     "cz-customizable": "^6.3.0",
-    "eslint": "^7.31.0",
+    "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-define-config": "^1.0.9",
     "eslint-plugin-prettier": "^3.4.0",
