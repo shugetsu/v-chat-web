@@ -10,7 +10,7 @@
 </script>
 
 <script setup lang="ts">
-  import { NConfigProvider, NGlobalStyle } from 'naive-ui'
+  import { NConfigProvider, NGlobalStyle, NMessageProvider } from 'naive-ui'
   import { useNaiveUILocale } from '/@/hooks/locales/useNaiveUILocale'
   import { useProvideInject } from '/@/hooks/core/useProvideInject'
   import { useNaiveUIThemeMode } from '/@/hooks/themes/useNaiveUIThemeMode'
@@ -36,7 +36,9 @@
     :locale="naiveUILocale.locale"
     :date-locale="naiveUILocale.dateLocale"
   >
-    <slot></slot>
+    <NMessageProvider>
+      <slot></slot>
+    </NMessageProvider>
     <NGlobalStyle />
   </NConfigProvider>
 </template>

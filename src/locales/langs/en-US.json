@@ -1,4 +1,14 @@
 {
+  "Common": {
+    "Button": {
+      "Cancel": "Cancel",
+      "Ok": "Ok"
+    },
+    "Upload": {
+      "ClickOrDragTheFileToTheAreaToUpload": "Click or drag files to this area to upload",
+      "OnlyImageFilesCanBeUploaded": "Only upload image files"
+    }
+  },
   "Components": {
     "Application": {
       "AppSystemSettings": {
@@ -6,6 +16,11 @@
         "ThemeColor": "Theme color",
         "ThemeMode": "Theme mode",
         "ThemeSkin": "Theme skin"
+      }
+    },
+    "Cropper": {
+      "CropperAvatarModal": {
+        "Title": "Avatar"
       }
     },
     "NaiveUI": {

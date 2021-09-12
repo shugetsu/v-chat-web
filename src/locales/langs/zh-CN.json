@@ -1,4 +1,14 @@
 {
+  "Common": {
+    "Button": {
+      "Cancel": "取消",
+      "Ok": "确定"
+    },
+    "Upload": {
+      "ClickOrDragTheFileToTheAreaToUpload": "点击或者拖动文件到该区域来上传",
+      "OnlyImageFilesCanBeUploaded": "只能上传图片文件"
+    }
+  },
   "Components": {
     "Application": {
       "AppSystemSettings": {
@@ -6,6 +16,11 @@
         "ThemeColor": "主题色",
         "ThemeMode": "主题模式",
         "ThemeSkin": "主题皮肤"
+      }
+    },
+    "Cropper": {
+      "CropperAvatarModal": {
+        "Title": "头像"
       }
     },
     "NaiveUI": {
