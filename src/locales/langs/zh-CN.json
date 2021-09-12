@@ -48,6 +48,7 @@
           "Mismatch": "{0} 值 {1} 与模式 {2} 不匹配"
         },
         "Required": "{0} 是必需的",
+        "Same": "{0} 与 {1} 不一致",
         "String": {
           "Len": "{0} 必须正好是 {1} 个字符",
           "Max": "{0} 不能超过 {1} 个字符",
@@ -100,5 +101,25 @@
     "Password": "密码",
     "RememberAccount": "记住账号",
     "SignInButton": "登录"
+  },
+  "SignUpPage": {
+    "AlreadyHaveAnAccount": "已经有帐号？",
+    "Birthday": "生日",
+    "ConfirmPassword": "确认密码",
+    "Email": "邮箱",
+    "EnterConfirmPassword": "输入确认密码",
+    "EnterEmail": "输入邮箱",
+    "EnterNickname": "输入昵称",
+    "EnterPassword": "输入密码",
+    "EnterVerificationCode": "输入验证码",
+    "Gender": "性别",
+    "HeaderTitle": "注册",
+    "Nickname": "昵称",
+    "Password": "密码",
+    "SelectBirthday": "选择生日",
+    "Send": "发送",
+    "SignIn": "登录",
+    "SignUpButton": "注册",
+    "VerificationCode": "验证码"
   }
 }

@@ -1,0 +1,19 @@
+<script setup lang="ts">
+  import { RouterRoutePathEnum } from '/@/datas/enums/RouterRoutePathEnum'
+  import { RouterLink } from 'vue-router'
+  import { useI18n } from 'vue-i18n'
+  import { NButton } from 'naive-ui'
+  // i18n
+  const { t } = useI18n()
+</script>
+
+<template>
+  <div>
+    <span class="text-xs">{{ t('SignUpPage.AlreadyHaveAnAccount') }}</span>
+    <NButton text type="primary">
+      <RouterLink class="text-xs" :to="RouterRoutePathEnum.SIGN_IN">{{ t('SignUpPage.SignIn') }}</RouterLink>
+    </NButton>
+  </div>
+</template>
+
+<style lang="scss"></style>

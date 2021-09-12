@@ -48,6 +48,7 @@
           "Mismatch": "{0} value {1} does not match pattern {2}"
         },
         "Required": "{0} is required",
+        "Same": "{0} is inconsistent with {1}",
         "String": {
           "Len": "{0} must be exactly {1} characters",
           "Max": "{0} cannot be longer than {1} characters",
@@ -100,5 +101,25 @@
     "Password": "Password",
     "RememberAccount": "Remember Account",
     "SignInButton": "Sign In"
+  },
+  "SignUpPage": {
+    "AlreadyHaveAnAccount": "Already have an account? ",
+    "Birthday": "Birthday",
+    "ConfirmPassword": "Confirm Password",
+    "Email": "Email",
+    "EnterConfirmPassword": "Enter confirm password",
+    "EnterEmail": "Enter email",
+    "EnterNickname": "Enter nickname",
+    "EnterPassword": "Enter password",
+    "EnterVerificationCode": "Enter verification code",
+    "Gender": "Gender",
+    "HeaderTitle": "Sign Up",
+    "Nickname": "Nick name",
+    "Password": "Password",
+    "SelectBirthday": "Choose birthday",
+    "Send": "Send",
+    "SignIn": "Sign in",
+    "SignUpButton": "Sign Up",
+    "VerificationCode": "Verification code"
   }
 }
