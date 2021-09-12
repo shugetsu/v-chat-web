@@ -13,6 +13,7 @@
   "dependencies": {
     "@iconify/vue": "^3.0.0",
     "cropperjs": "^1.5.12",
+    "date-fns": "^2.23.0",
     "lodash-es": "^4.17.21",
     "loglevel": "^1.7.1",
     "naive-ui": "^2.18.1",
