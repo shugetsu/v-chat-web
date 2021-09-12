@@ -18,7 +18,6 @@ interface SignInHandlerReturn {
  * @description 登录处理
  * @param {Ref} vFormInstance
  * @param {SignInFormData} signInFormData
- * @param {Ref} isRememberAccount
  * @return {SignInHandlerReturn}
  */
 export function signInHandler(vFormInstance: Ref, signInFormData: SignInFormData): SignInHandlerReturn {

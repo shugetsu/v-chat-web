@@ -7,7 +7,7 @@
   import { signInFormRules } from '../composables/signInFormRules'
   import { signInFormData } from '../composables/signInFormData'
   import { signInHandler } from '../composables/signInHandler'
-
+  // i18n
   const { t } = useI18n()
   // VForm 实例
   const vFormInstance = ref()

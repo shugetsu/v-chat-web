@@ -1,15 +1,14 @@
 import { useI18n } from 'vue-i18n'
-import { SignInApiParams } from './signInFormData'
+import { SignInFormData } from './signInFormData'
 import { VFormItemRule } from '/@/components/NaiveUI/Form'
 
-type SignInFormRules = Record<keyof SignInApiParams, VFormItemRule[]>
-type SignInFormRulesReturn = SignInFormRules
+type SignInFormRules = Partial<Record<keyof SignInFormData, VFormItemRule[]>>
 
 /**
  * @description 登录的表单验证规则
- * @return {SignInFormRulesReturn}
+ * @return {SignInFormRules}
  */
-export function signInFormRules(): SignInFormRulesReturn {
+export function signInFormRules(): SignInFormRules {
   const { t } = useI18n()
 
   const formRules: SignInFormRules = {

@@ -22,13 +22,11 @@ export type SignInFormData = SignInApiParams & {
   rememberAccount: boolean
 }
 
-type SignInFormDataReturn = SignInFormData
-
 /**
  * @description 登录的表单数据
- * @return {SignInFormDataReturn}
+ * @return {SignInFormData}
  */
-export function signInFormData(): SignInFormDataReturn {
+export function signInFormData(): SignInFormData {
   const lCache = createLocalCache()
   const { email, password } = lCache.get<AccountCacheData>(LocalCacheKeyEnum.ACCOUNT, { email: '', password: '' })
   const formData = reactive<SignInFormData>({
