@@ -5,8 +5,6 @@ import { computed, getCurrentInstance, Ref, ref, WritableComputedRef } from 'vue
  * @description 双向绑定 props
  * @param {Props} props
  * @param {Prop} prop
- * @param {(value?: Props[Prop]) => Props[Prop]} transformIn
- * @param {(value: Props[Prop]) => Props[Prop]} transformOut
  * @return {WritableComputedRef<Props[Prop]>}
  *
  * @example
@@ -28,9 +26,7 @@ import { computed, getCurrentInstance, Ref, ref, WritableComputedRef } from 'vue
  */
 export function usePropsVModel<Props extends Object, Prop extends keyof Props>(
   props: Props,
-  prop: Prop,
-  transformIn: (value?: Props[Prop]) => Props[Prop] = (value: any) => value,
-  transformOut: (value: Props[Prop]) => Props[Prop] = (value: any) => value
+  prop: Prop
 ): WritableComputedRef<Props[Prop]> {
   const ctx = getCurrentInstance()
 
@@ -42,15 +38,15 @@ export function usePropsVModel<Props extends Object, Prop extends keyof Props>(
     return ctx.vnode.props?.hasOwnProperty(prop) && !isUndefined(props[prop])
   })
 
-  const value = ref(transformIn(props[prop])) as Ref<Props[Prop]>
+  const value = ref(props[prop]) as Ref<Props[Prop]>
 
   const valueVModel = computed<Props[Prop]>({
     get() {
-      return defineProp.value ? transformIn(props[prop]) : value.value
+      return defineProp.value ? props[prop] : value.value
     },
     set(newV) {
       value.value = newV
-      defineProp.value && ctx.emit(`update:${prop}`, transformOut(newV))
+      defineProp.value && ctx.emit(`update:${prop}`, newV)
     }
   })
 
