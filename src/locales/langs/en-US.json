@@ -2,6 +2,7 @@
   "Common": {
     "Button": {
       "Cancel": "Cancel",
+      "Confirm": "Confirm",
       "Ok": "Ok"
     },
     "Upload": {
@@ -89,6 +90,18 @@
         "Slime": "Slime"
       }
     }
+  },
+  "ForgetPasswordPage": {
+    "BackToTheSignIn": "Back to the Sign in",
+    "ConfirmNewPassword": "Confirm New Password",
+    "Email": "Email",
+    "EnterConfirmNewPassword": "Enter new password",
+    "EnterEmail": "Enter email",
+    "EnterNewPassword": "Enter a new password",
+    "HeaderTitle": "Forget Password",
+    "NewPassword": "New Password",
+    "Send": "Send",
+    "VerifyCode": "Verify Code"
   },
   "SignInPage": {
     "CreateAnAccount": "Create an Account",

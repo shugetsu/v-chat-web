@@ -2,6 +2,7 @@
   "Common": {
     "Button": {
       "Cancel": "取消",
+      "Confirm": "确认",
       "Ok": "确定"
     },
     "Upload": {
@@ -89,6 +90,18 @@
         "Slime": "史莱姆"
       }
     }
+  },
+  "ForgetPasswordPage": {
+    "ConfirmNewPassword": "确认新密码",
+    "Email": "邮箱",
+    "EnterConfirmNewPassword": "输入确定新密码",
+    "EnterEmail": "输入邮箱",
+    "EnterNewPassword": "输入新密码",
+    "HeaderTitle": "忘记密码",
+    "NewPassword": "新密码",
+    "BackToTheSignIn": "返回登录",
+    "Send": "发送",
+    "VerifyCode": "验证码"
   },
   "SignInPage": {
     "CreateAnAccount": "创建账号",
