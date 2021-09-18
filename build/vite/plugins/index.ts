@@ -1,4 +1,3 @@
-import { EnvConfigService } from '/$/utils/EnvConfigService'
 import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
 import { htmlPluginConfig } from './html'
@@ -7,6 +6,7 @@ import { svgIconsPluginConfig } from './svgIcons'
 import { windicssPluginConfig } from './windicss'
 import { purgeIconsPluginConfig } from './purgeIcons'
 import { compressionPluginConfig } from './compression'
+import { EnvConfigService } from '/%/utils/EnvConfigService'
 
 export function vitePluginsConfig(isBuild: boolean, viteEnv: EnvConfigService<ViteEnv>) {
   return [

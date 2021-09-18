@@ -1,6 +1,6 @@
 /**
  * @date 2021-07-28 14:12:20
- * @lastEditTime 2021-07-28 14:33:56
+ * @lastEditTime 2021-09-18 09:52:39
  * @description 压缩图片
  * @filePath /build/vite/plugins/imagemin.ts
  * @see https://github.com/anncwb/vite-plugin-imagemin
