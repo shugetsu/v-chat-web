@@ -2,7 +2,7 @@
   import { computed, onMounted, ref } from 'vue'
   import { NInput, NDivider } from 'naive-ui'
   import { ensureCssUnit } from '/@/utils/helpers/ensureCssUnit'
-  import { useRefInstances } from '/@/hooks/core/useRefInstances'
+  import { useRefInstances } from '/@/hooks/helpers/useRefInstances'
 
   const props = withDefaults(
     defineProps<{
