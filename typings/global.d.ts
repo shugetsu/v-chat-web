@@ -1,4 +1,16 @@
+import { Ref } from 'vue'
+
 declare global {
+  /**
+   * 可为空
+   */
+  type Nullable<T> = T | null
+
+  /**
+   * 可能为 Ref
+   */
+  type MaybeRef<T> = T | Ref<T>
+
   /**
    * 删除索引签名
    *
