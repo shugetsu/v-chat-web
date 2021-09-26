@@ -73,6 +73,11 @@
         },
         "Whitespace": "{0} 不能为空"
       }
+    },
+    "SearchPage": {
+      "SearchPageInput": {
+        "Search": "搜索"
+      }
     }
   },
   "Datas": {

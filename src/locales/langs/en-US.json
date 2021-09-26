@@ -73,6 +73,11 @@
         },
         "Whitespace": "{0} cannot be empty"
       }
+    },
+    "SearchPage": {
+      "SearchPageInput": {
+        "Search": "search"
+      }
     }
   },
   "Datas": {
