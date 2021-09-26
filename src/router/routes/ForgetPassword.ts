@@ -1,4 +1,5 @@
 import { RouteRecordRaw } from 'vue-router'
+import { RouterRouteNameEnum } from '/@/datas/enums/RouterRouteNameEnum'
 import { RouterRoutePathEnum } from '/@/datas/enums/RouterRoutePathEnum'
 
 /**
@@ -6,5 +7,6 @@ import { RouterRoutePathEnum } from '/@/datas/enums/RouterRoutePathEnum'
  */
 export const ForgetPassword: RouteRecordRaw = {
   path: RouterRoutePathEnum.FORGET_PASSWORD,
+  name: RouterRouteNameEnum.FORGET_PASSWORD,
   component: () => import('/@/views/ForgetPassword/index.vue')
 }

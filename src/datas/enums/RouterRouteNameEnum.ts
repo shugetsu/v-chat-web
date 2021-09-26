@@ -1,45 +1,45 @@
 /**
  * @date 2021-09-09 20:01:42
  * @lastEditTime 2021-09-26 11:54:49
- * @description 路由路径
+ * @description 路由名
  * @filePath /src/datas/enums/RouterRoutePathEnum.ts
  */
 
-export const enum RouterRoutePathEnum {
+export const enum RouterRouteNameEnum {
   /**
    * 根
    */
-  ROOT = '/',
+  ROOT = 'ROOT',
   /**
    * 登录
    */
-  SIGN_IN = '/sign-in',
+  SIGN_IN = 'SIGN_IN',
   /**
    * 注册
    */
-  SIGN_UP = '/sign-up',
+  SIGN_UP = 'SIGN_UP',
   /**
    * 忘记密码
    */
-  FORGET_PASSWORD = '/forget-password',
+  FORGET_PASSWORD = 'FORGET_PASSWORD',
   /**
    * IM
    */
-  IM = '/im',
+  IM = 'IM',
   /**
    * 聊天
    */
-  IM_CHATS = '/im/chats',
+  IM_CHATS = 'IM_CHATS',
   /**
    * 房间
    */
-  IM_CHATS_ROOM = '/im/chats/room/:id',
+  IM_CHATS_ROOM = 'IM_CHATS_ROOM',
   /**
    * 通讯录
    */
-  IM_CONTACTS = '/im/contacts',
+  IM_CONTACTS = 'IM_CONTACTS',
   /**
    * 好友
    */
-  IM_CONTACTS_FRIEND = '/im/contacts/friend/:id'
+  IM_CONTACTS_FRIEND = 'IM_CONTACTS_FRIEND'
 }
