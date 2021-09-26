@@ -6,17 +6,18 @@ import {
   RouteLocationOptions,
   RouteQueryAndHash
 } from 'vue-router'
+import { RouterRouteNameEnum } from '/@/datas/enums/RouterRouteNameEnum'
 import { RouterRoutePathEnum } from '/@/datas/enums/RouterRoutePathEnum'
 import { createLogger } from '/@/utils/logger'
 
 type RouteLocationRaw =
   | (RouteQueryAndHash & Overwrite<LocationAsPath, { path: RouterRoutePathEnum }> & RouteLocationOptions)
-  | (RouteQueryAndHash & LocationAsRelativeRaw & RouteLocationOptions)
+  | (RouteQueryAndHash & Overwrite<LocationAsRelativeRaw, { name: RouterRouteNameEnum }> & RouteLocationOptions)
   | RouterRoutePathEnum
 
 interface UsePageRetrun {
   /**
-   * @description 页面跳转
+   * @description 路由跳转
    * @param {RouteLocationRaw} to
    * @param {boolean} isReplace
    * @return {void}
