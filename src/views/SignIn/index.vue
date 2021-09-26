@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  import SignInLayout from '/@/layouts/SignInLayout/index.vue'
+  import SignInLayout from '/@/layouts/SignIn/SignInLayout.vue'
   import SignInCard from './components/SignInCard.vue'
 </script>
 
