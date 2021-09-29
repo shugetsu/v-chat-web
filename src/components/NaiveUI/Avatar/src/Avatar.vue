@@ -29,7 +29,7 @@
     }>(),
     {
       src: '',
-      size: 45,
+      size: 50,
       edit: false,
       editIcon: 'mdi:image-edit',
       editIconSize: 15

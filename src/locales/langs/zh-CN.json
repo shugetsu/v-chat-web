@@ -19,6 +19,9 @@
         "ThemeSkin": "主题皮肤"
       }
     },
+    "AsyncComponent": {
+      "LoadError": "加载错误"
+    },
     "Cropper": {
       "CropperAvatarModal": {
         "Title": "头像"
@@ -97,6 +100,7 @@
     }
   },
   "ForgetPasswordPage": {
+    "BackToTheSignIn": "返回登录",
     "ConfirmNewPassword": "确认新密码",
     "Email": "邮箱",
     "EnterConfirmNewPassword": "输入确定新密码",
@@ -104,7 +108,6 @@
     "EnterNewPassword": "输入新密码",
     "HeaderTitle": "忘记密码",
     "NewPassword": "新密码",
-    "BackToTheSignIn": "返回登录",
     "Send": "发送",
     "VerifyCode": "验证码"
   },

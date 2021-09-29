@@ -1,6 +1,6 @@
 /**
  * @date 2021-09-04 11:07:37
- * @lastEditTime 2021-09-12 14:28:44
+ * @lastEditTime 2021-09-24 11:17:20
  * @description 图片裁剪器
  * @see https://github.com/fengyuanchen/cropperjs
  * @filePath /src/components/Cropper/src/lib/VCropper.ts
@@ -15,6 +15,8 @@ export interface ImageOptions {
 }
 
 export type VCropperOptions = Cropper.Options<HTMLImageElement>
+
+export type GetVCroppedCanvasOptions = Cropper.GetCroppedCanvasOptions
 
 const defaultOptions: Cropper.Options = {
   // 裁剪框不超过画布
@@ -91,11 +93,11 @@ export class VCropper {
 
   /**
    * @description 获取裁剪 blob 图片
-   * @param {Cropper.GetCroppedCanvasOptions} croppedCanvasOptions
+   * @param {GetVCroppedCanvasOptions} croppedCanvasOptions
    * @param {ImageOptions} imageOptions
    * @return {Promise<Blob>}
    */
-  getCroppedBlob(croppedCanvasOptions?: Cropper.GetCroppedCanvasOptions, imageOptions?: ImageOptions): Promise<Blob> {
+  getCroppedBlob(croppedCanvasOptions?: GetVCroppedCanvasOptions, imageOptions?: ImageOptions): Promise<Blob> {
     const croppedCanvas = this.cropperInstance.getCroppedCanvas(croppedCanvasOptions)
     const { type, quality } = imageOptions ?? {}
     return new Promise<Blob>((resolve, reject) => {
@@ -105,11 +107,11 @@ export class VCropper {
 
   /**
    * @description 获取裁剪 base64 图片
-   * @param {Cropper.GetCroppedCanvasOptions} croppedCanvasOptions
+   * @param {GetVCroppedCanvasOptions} croppedCanvasOptions
    * @param {ImageOptions} imageOptions
    * @return {string}
    */
-  getCroppedBase64(croppedCanvasOptions?: Cropper.GetCroppedCanvasOptions, imageOptions?: ImageOptions): string {
+  getCroppedBase64(croppedCanvasOptions?: GetVCroppedCanvasOptions, imageOptions?: ImageOptions): string {
     const croppedCanvas = this.cropperInstance.getCroppedCanvas(croppedCanvasOptions)
     const { type, quality } = imageOptions ?? {}
     const base64 = croppedCanvas.toDataURL(type, quality)
